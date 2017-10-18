@@ -1,0 +1,12 @@
+#!/bin/bash -l
+#PBS -l walltime=10:00:00,nodes=1:ppn=20
+#PBS -m abe
+#PBS -M marijke.vanmoerbeke@uhasselt.be
+#PBS -A lp_h_gdsproject
+
+module load R/3.1.1-intel-2014a-default
+cd $VSC_SCRATCH/HTA_RASA/Data/GDS_Preparation
+
+export OMP_NUM_THREADS=1
+
+Rscript PivotTransformation.R
