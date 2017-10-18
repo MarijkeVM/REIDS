@@ -109,9 +109,9 @@ if(d[1]!="geneID"){
 	
 	Output=GenoDiffSplicing(geneData=geneData,nsim=5000,geneID=geneID,informativeCalls=TRUE,alpha=0.5)
 	
-	OutputGDS_geneID=Output
-	assign(paste("OutputGDS_geneID",geneID,sep=""),OutputGDS_geneID)
-	eval(parse(text=paste("save(OutputGDS_geneID", geneID, ", file=\"/scratch/leuven/310/vsc31011/HTA_RASA/REIDS/OutputGDS/OutputGDS_geneID", geneID, ".RData\")", sep=""))) 
+	OutputREIDS_geneID=Output
+	assign(paste("OutputREIDS_geneID",geneID,sep=""),OutputREIDS_geneID)
+	eval(parse(text=paste("save(OutputREIDS_geneID", geneID, ", file=\"/scratch/leuven/310/vsc31011/HTA_RASA/REIDS/OutputREIDS/OutputREIDS_geneID", geneID, ".RData\")", sep=""))) 
 	
 	
 }else{
