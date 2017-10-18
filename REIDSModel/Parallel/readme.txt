@@ -5,11 +5,12 @@ Convert the .RData file after running HTA_PreProcessing.R to a file in which eve
 1) run PivotTransformation.R on the R.Data file --> .csv file (batch script is PivotTransformation.pbs)
 2) run Line_Indexer.py on the .csv file --> .csv file (batch script is line_indexer.pbs)
 The latter .csv file contains the line indices and the corresponding start and end points.
+Both files are necessary in order for REIDS.R to run on a supercomputer infrastructure.
 Further, a geneID.csv has been created and will be used later when concatenating the results.
 
 
 *
-Run REIDS_Cluster.R on the items of the Line_Indexer.py.
+Run REIDS_Cluster.R on the items of the Line_Indexer.py. (batch file is REIDS.pbs).
 The computation time is approximately a day with the provided settings.
 
 
