@@ -9,7 +9,7 @@ CreateOutput<-function(ID){
 		names(Output)[length(Output)]=i
 	}
 	HTAData_RASA_WithoutJunctions_OutputGDSModel=Output
-	save(HTAData_RASA_WithoutJunctions_OutputGDSModel,file="../HTAData_RASA_WithoutJunctions_OutputREIDSModel.RData")
+	save(HTAData_RASA_WithoutJunctions_OutputREIDSModel,file="../HTAData_RASA_WithoutJunctions_OutputREIDSModel.RData")
 	
 }
 
