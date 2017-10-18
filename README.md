@@ -1,5 +1,5 @@
 # REIDS
-The software repository for the paper
+The software repository for the paper *The Potential of Exon-Exon Splice Junctions* submitted for review in Scientific Reports.
 
 ## 1) PreProcessing
 This folder contains the .CEL Files and .cdf files necessary to preprocess the HTA data.
