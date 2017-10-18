@@ -2,11 +2,11 @@
 The software repository for the paper *The Potential of Exon-Exon Splice Junctions* submitted for review in Scientific Reports.
 
 ## 1) PreProcessing
-This folder contains the .CEL Files and .cdf files necessary to preprocess the HTA data.
+This folder contains the information in order to preprocess the HTA data.
 The result is an .RData file containing the measured probe intensities for every sample.
 Further, exon and gene level summarized values can be obtained.
 	
-Note: the folder structure is important for the aroma.affymetrix package to work.
+Note: the folder structure is important for the aroma.affymetrix package.
 	
 	
 ## 2) REIDS
