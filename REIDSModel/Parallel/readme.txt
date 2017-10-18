@@ -12,5 +12,6 @@ Further, a geneID.csv has been created and will be used later when concatenating
 *
 Run REIDS_Cluster.R on the items of the Line_Indexer.py. (batch file is REIDS.pbs).
 The computation time is approximately a day with the provided settings.
+Review the specified folders for saving and alter to your settings.
 
 
