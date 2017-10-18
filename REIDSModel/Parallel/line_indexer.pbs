@@ -2,10 +2,9 @@
 #PBS -l walltime=05:00:00,nodes=1:ppn=20
 #PBS -m abe
 #PBS -M marijke.vanmoerbeke@uhasselt.be
-#PBS -A lp_h_gdsproject
 
 module load Python/2.7.6-foss-2014a
-cd $VSC_SCRATCH/HTA_RASA/Data/GDS_Preparation
+cd $VSC_SCRATCH/HTA_RASA/Data/REIDS_Preparation
 
 export OMP_NUM_THREADS=1
 
